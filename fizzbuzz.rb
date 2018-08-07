@@ -1,6 +1,6 @@
 def fizzbuzz(number)
   
-  if number%5 ==0 && number%3 == 0
+  if number%5 == 0 && number%3 == 0
     "FizzBuzz"
   elsif number%3 == 0
     "Fizz"
@@ -12,4 +12,4 @@ def fizzbuzz(number)
   
 end
 
-fizzbuzz(15)
+fizzbuzz(30)
