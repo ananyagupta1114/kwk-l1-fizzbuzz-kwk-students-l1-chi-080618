@@ -14,3 +14,9 @@ end
 
 fizzbuzz(10)
 
+def fizzbuzz(number)
+  
+  if number % 5 == 0
+    print "Buzz"
+  if number % 3 == 0
+    print "Fizz"
