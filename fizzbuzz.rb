@@ -13,3 +13,4 @@ def fizzbuzz(number)
 end
 
 fizzbuzz(10)
+
