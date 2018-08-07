@@ -13,3 +13,5 @@ else
   puts number
   
 end
+
+fizzbuzz
