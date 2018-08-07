@@ -10,7 +10,6 @@ def fizzbuzz
    puts "FizzBuzz"
   else
     puts number
-  
 end
 
 fizzbuzz
