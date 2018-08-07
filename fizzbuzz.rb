@@ -1,6 +1,10 @@
 def fizzbuzz(number)
   
-  if number % 5 == 0 && number % 3 == 0
+  div3 = number % 3 
+  div5 = number % 5
+  
+  
+  if div5 == 0 && div3 == 0
     "FizzBuzz"
   elsif number % 3 == 0
     "Fizz"
@@ -14,10 +18,3 @@ end
 
 fizzbuzz(10)
 
-def fizzbuzz(number)
-  
-  if number % 5 == 0
-    print "Buzz"
-    
-  if number % 3 == 0
-    print "Fizz"
