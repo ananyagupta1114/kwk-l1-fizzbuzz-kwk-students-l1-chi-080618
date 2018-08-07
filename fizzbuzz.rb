@@ -1,6 +1,4 @@
-def fizzbuzz
-  puts "What number do you select?"
-  number = gets.chomp
+def fizzbuzz(number)
 
   if number%3 == 0
     puts "Fizz"
