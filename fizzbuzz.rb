@@ -9,3 +9,5 @@ def fizzbuzz(number)
   else
     puts number
 end
+
+fizzbuzz(10)
